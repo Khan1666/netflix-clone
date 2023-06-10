@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+#main1{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-image: url(https://static.standard.co.uk/2022/11/16/10/netflix-s.jpg?width=1024&auto=webp&quality=50&crop=968%3A645%2Csmart);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     display: flex;
+     border-bottom: 10px solid #232323;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+#text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    color: white;
+}
+#text1 h1{
+     font-size: 60px;
+     text-align: center;
+     font-family: gilroy;
+}
+#text1 h4{
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+}
+#text1 h6{
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 19px;
+}
+#text1 form{
+    position: absolute;
+    bottom: -30%;
+    left: -5%;
+}
+#text1 form input{
+    font-size: 20px;
+    padding: 10px 289.5px 10px 10px;
+}
+#text1 button{
+    position: absolute;
+    bottom: -30%;
+    right: -5%;
+    font-size: 22px;
+    padding: 10px 15px;
+    /* padding-left: 15px; */
+    color: white;
+    background-color: rgb(255, 11, 11);
+    border:transparent ;
+}
+#main1 #logo{
+    width: 15%;
+    height: 10%;
+    /* background-color:blue; */
+    /* color: blue; */
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: red;
+    font-size: 70px;
+}
+#main1 #logo h5{
+    font-size: 22px;
+    margin-top: -10px;
+    font-family: gilroy;
+}
+#sign button{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    font-size: 20px;
+    padding: 6px 13px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}
+
+#main2{
+    width: 100%;
+    height: 65%;
+    background-color: blue;
+    display: flex;
+    border-bottom: 10px solid #232323;
+    /* position: relative; */
+}
+
+#left1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+#text2{
+    width: 65%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+}
+
+#text2 h1{
+    font-size: 50px;
+}
+
+#text2 p {
+    padding-left: 58px;
+    font-size: 20px;
+    
+}
+
+#right1 img {
+    width: 70%;
+    height: 75%;
+    margin-top: 10%;
+    position: relative;
+    white-space: nowrap;
+    z-index: 999;
+    
+}
+
+#right1 video{
+    position: absolute;
+    right: 39%;
+    top: 30%;
+    width: 52%;
+    object-fit: cover;
+   
+    
+}
+#main3{
+    width: 100%;
+    height: 65%;
+    background-color: yellow;
+    display: flex;
+    border-bottom: 10px solid #232323;
+    position: relative;
+    
+}
+
+#left2{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#right2{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left2 img{
+    width: 80%;
+    height: 80%;
+    margin-bottom: 10%;
+    object-fit: cover;
+}
+
+#tabs #mm{
+   /* width: 100%; */
+   /* height: 20%; */
+   display: flex;
+   /* display: inline-block; */
+   align-items: center;
+   justify-content: space-between;
+   padding: 7px 5px;
+   border-radius: 7px;
+   position: absolute;
+   left: 13%;
+   bottom: 21%;
+   background-color: black;
+   border: 3px solid #232323;
+}
+
+#mm #ss {
+    width: 15%;
+    height: 26%;
+}
+#mm #nt {
+    width: 12%;
+    height: 15%;
+}
+
+#mm #texts{
+    font-size: 15px;
+    
+}
+#mm #texts h5{
+    color: #0071eb;
+}
+#mm #texts h4{
+    color: white;
+}
+
+
+#right2 #text2 p {
+   padding-left: 0;
+   font-size: 22px;
+}
+
+#main4{
+    width: 100%;
+    height: 65%;
+    background-color: aqua;
+    display: flex;
+    border-bottom: 10px solid #232323;
+}
+
+#main4 #right1 video {
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    object-fit: cover;
+    width: 43%;
+}
+
+#main5{
+    width: 100%;
+    height: 65%;
+    background-color: brown;
+    display: flex;
+    border-bottom: 10px solid #232323;
+}
+
+#main5 #right2 #text2 h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+}
+#main6{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 10px solid #232323;
+}
+
+#main6 #button{
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#main6 #text4 h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 2%;
+}
+
+#button #inquiry {
+    width: 80vmax;
+    height: 18%;
+    margin-bottom: 3px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+    background-color: #2d2d2d;
+}
+
+#main6 #button span {
+    font-size: 50px;
+    padding-top: 1%;
+}
+
+#main6 h2{
+    margin-top: 2%;
+    color: white;
+}
+
+
+#main6 form input{
+    font-size: 15px;
+    padding: 8px 250.5px 8px 8px;
+}
+
+#form{
+    display: flex;
+}
+#main6 button{
+    display: flex;
+    font-size: 22px;
+    padding: 5px 10px;
+    /* margin-left: 2%; */
+    /* padding-left: 15px; */
+    color: white;
+    background-color: rgb(255, 11, 11);
+    border:transparent ;
+}
+
+#main7{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+#main7 #text5 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+}
+
+#main7 #text5 span {
+    border-bottom: 2px solid white;
+}
+
+#main7 #mix{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+#mix #all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    /* width: 100%;
+    height: 100%; */
+    
+}
+
+#mix #all h5 {
+    padding-top: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#main7 select{
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px;
+    color: white;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+}
+
